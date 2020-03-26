@@ -11,3 +11,14 @@ media
 !.travis.yml
 /.env
 /.vscode
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+/media
+venv
+/static
