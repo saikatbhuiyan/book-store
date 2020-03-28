@@ -27,7 +27,6 @@ class Book(models.Model):
     return reverse('book_detail', args=[str(self.id)])
 
 
-
 class Review(models.Model):
   """Review object"""
   book = models.ForeignKey(
