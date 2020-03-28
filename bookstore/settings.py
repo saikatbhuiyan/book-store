@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'users',
     'pages',
     'books',
+    'orders',
 ]
 
 
@@ -206,3 +207,12 @@ DEFAULT_FROM_EMAIL = 'shaikotbhuiya@gmail.com'
 # ACCOUNT_CONFIRM_EMAIL_ON_GET = True
 # ACCOUNT_EMAIL_CONFIRMATION_ANONYMOUS_REDIRECT_URL = reverse_lazy('account_confirm_complete')
 # ACCOUNT_EMAIL_CONFIRMATION_AUTHENTICATED_REDIRECT_URL = reverse_lazy('account_confirm_complete')
+
+
+# Stripe
+
+# STRIPE_TEST_PUBLISHABLE_KEY=os.environ.get('STRIPE_TEST_PUBLISHABLE_KEY')
+# STRIPE_TEST_SECRET_KEY=os.environ.get('STRIPE_TEST_SECRET_KEY')
+
+STRIPE_TEST_PUBLISHABLE_KEY='pk_test_Cipzno5fPl1n8CdfEiKkCyWw00xqHb9rsf'
+STRIPE_TEST_SECRET_KEY='sk_test_QvauDVBFo59MAZaiCVRDr9p500MVfGf5Wz'
